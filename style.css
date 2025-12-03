@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Google+Sans+Flex:opsz,wght@6..144,1..1000&display=swap');
+
+:root {
+    --background-header-color: #fef9f3;
+    --gray: #1c1c1c;
+    --yellow: #e6af2e;
+    --green: #5c946e;
+    --blue: #afc1d6;
+    --white: #eef1ef;
+
+    --para-font: "EB Garamond", serif;
+    --header-font: "Google Sans Flex", sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--background-header-color);
+}
+
+header {
+    width: 100%;
+    background-color: var(--background-header-color);
+}
+
+header img {
+    width: 30%;
+}
+
+main img {
+    width: 100%;
+}
+
+article {
+    width: 100%;
+}
+
+article h2 {
+    margin: 0;
+    padding: 10px;
+    font-family: var(--header-font);
+}
+
+article p {
+    margin: 0;
+    padding: 0 10px 10px 10px;
+    font-family: var(--para-font);
+}
+
+.connect {
+    background-color: var(--green);
+    color: var(--gray);
+}
+
+.resolve {
+    background-color: var(--blue);
+    color: var(--gray);
+}
+
+.quest {
+    background-color: var(--yellow);
+    color: var(--gray);
+}
+
+.reflect {
+    background-color: var(--green);
+    color: var(--gray);
+}
+
+a:link {
+    text-decoration: none;
+    color: var(--gray);
+}
+
+a:hover {
+    text-decoration: none;
+    color: var(--white);
+}
+
+a:visited {
+    text-decoration: none;
+    color: var(--gray);
+}
+
+a:active {
+    text-decoration: none;
+    color: var(--gray);
+}
+
+footer {
+    background-color: var(--background-header-color);
+    color: var(--gray);
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-family: var(--para-font);
+}
